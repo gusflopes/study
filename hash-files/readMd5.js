@@ -3,7 +3,7 @@
 const fs = require('node:fs/promises')
 const md5 = require('md5')
 
-const filePath = 'v3.pdf'
+const filePath = 'files/v3.pdf'
 
 function readWithMd5(path) {
 
